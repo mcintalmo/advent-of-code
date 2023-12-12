@@ -1,0 +1,16 @@
+name: advent-of-code
+channels:
+- conda-forge
+dependencies:
+- python==3.11
+- ipykernel
+- numpy
+- pandas
+- scipy
+- python-dotenv
+- networkx
+- matplotlib
+- seaborn
+- pip
+- pip:
+  - 'advent-of-code-data[nb]'
